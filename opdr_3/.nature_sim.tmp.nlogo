@@ -3,7 +3,8 @@ breed [animals animal]
 breed [birds bird]
 ;; destinations is eigenlijk het goal en dat is in deze simulatie de zee/oceaan
 breed [destinations destination]
-;;speed is de snelheid waarmee ze bewegen
+;; energy is hoeveel energie de turtles hebben, speed is de snelheid waarmee ze bewegen
+bewegen
 animals-own [speed]
 ;; birds hebben een standaard snelheid. de dive speed is een snelheid waarmee een bird naar een turtle gaat als deze binnen bereik is
 birds-own [dive-speed]
