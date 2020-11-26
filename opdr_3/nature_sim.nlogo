@@ -52,6 +52,7 @@ to move [loc]
 end
 
 to go
+  ;; als alle turtles van het scherm zijn wordt de simulatie automatisch gestopt
   if count animals = 0 [ stop ]
   ask animals [
     let ending one-of destinations
